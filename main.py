@@ -1,6 +1,7 @@
 import speech
 import commands
 import file_manager
+import speaker
 
 while True:
 
@@ -10,10 +11,13 @@ while True:
         continue
 
     if command == "exit":
+        speaker.speak("Goodbye!")
         break
 
     intent = commands.detect_intent(command)
-    print(intent)
+
     result = file_manager.execute(intent)
 
     print(result)
+
+    speaker.speak(result)
