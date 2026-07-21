@@ -2,15 +2,16 @@ from pathlib import Path
 import os
 
 current_directory = Path.home()
+
 print("Home Path:", Path.home())
 print("Current Directory:", current_directory)
+
 
 def execute(intent):
 
     global current_directory
 
     if intent["intent"] == "pwd":
-
         return f"Current Directory:\n{current_directory}"
 
     elif intent["intent"] == "list_files":
@@ -32,14 +33,47 @@ def execute(intent):
 
     elif intent["intent"] == "open":
 
-        folder = current_directory / intent["target"]
+        target = intent["target"].lower().strip()
 
-        if folder.exists():
+        # 1. Exact filename (with extension)
+        for item in current_directory.iterdir():
 
-            current_directory = folder
+            if item.name.lower() == target:
 
-            return f"Opened {folder}"
+                os.startfile(item)
 
-        return "Folder not found."
+                if item.is_dir():
+                    current_directory = item
+                    return f"Opened folder {item.name}"
+
+                return f"Opened file {item.name}"
+
+        # 2. Exact filename (without extension)
+        for item in current_directory.iterdir():
+
+            if item.stem.lower() == target:
+
+                os.startfile(item)
+
+                if item.is_dir():
+                    current_directory = item
+                    return f"Opened folder {item.name}"
+
+                return f"Opened file {item.name}"
+
+        # 3. Partial match
+        for item in current_directory.iterdir():
+
+            if target in item.stem.lower():
+
+                os.startfile(item)
+
+                if item.is_dir():
+                    current_directory = item
+                    return f"Opened folder {item.name}"
+
+                return f"Opened file {item.name}"
+
+        return "File or Folder not found."
 
     return "Unknown command."
