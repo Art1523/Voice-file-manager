@@ -1,23 +1,18 @@
-import speech
-import commands
-import file_manager
-import speaker
+import core.speech as speech
+from core.assistant import handle_command
+from core.logger import configure_logging
+
+configure_logging()
 
 while True:
 
     command = speech.listen()
+    command, result = handle_command(command)
 
     if command == "":
         continue
 
-    if command == "exit":
-        speaker.speak("Goodbye!")
-        break
-
-    intent = commands.detect_intent(command)
-
-    result = file_manager.execute(intent)
-
     print(result)
 
-    speaker.speak(result)
+    if command == "exit":
+        break

@@ -1,0 +1,42 @@
+2026-07-21 17:26:45,466 | INFO | comtypes.client._code_cache | Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\anaconda3\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-21 17:26:45,467 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\Admin\anaconda3\Lib\site-packages\comtypes\gen'
+2026-07-21 17:26:54,604 | INFO | core.assistant | Command processed: open downloads | Opened folder Downloads
+2026-07-21 17:26:54,612 | INFO | core.speaker | Assistant spoke: Opened folder Downloads
+2026-07-21 17:30:15,335 | INFO | comtypes.client._code_cache | Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\anaconda3\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-21 17:30:15,336 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\Admin\anaconda3\Lib\site-packages\comtypes\gen'
+2026-07-21 17:30:21,435 | INFO | core.speaker | Assistant spoke: Goodbye!
+2026-07-21 17:32:59,995 | INFO | comtypes.client._code_cache | Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\anaconda3\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-21 17:32:59,998 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\Admin\anaconda3\Lib\site-packages\comtypes\gen'
+2026-07-21 17:33:13,702 | INFO | ui.main_window | Orb state changed to listening
+2026-07-21 17:33:20,392 | INFO | core.assistant | Command processed: open downloads folder | File or Folder not found.
+2026-07-21 17:33:20,397 | INFO | core.speaker | Assistant spoke: File or Folder not found.
+2026-07-22 12:12:16,054 | INFO | comtypes.client._code_cache | Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\anaconda3\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-22 12:12:16,055 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\Admin\anaconda3\Lib\site-packages\comtypes\gen'
+2026-07-22 12:12:55,260 | INFO | ui.main_window | Orb state changed to listening
+2026-07-22 12:12:59,897 | INFO | core.assistant | Command processed: current director | Unknown command.
+2026-07-22 12:12:59,902 | INFO | core.speaker | Assistant spoke: Unknown command.
+2026-07-22 12:41:30,969 | INFO | comtypes.client._code_cache | Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\anaconda3\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-22 12:41:30,970 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\Admin\anaconda3\Lib\site-packages\comtypes\gen'
+2026-07-22 12:41:38,882 | INFO | ui.main_window | Orb state changed to listening
+2026-07-22 12:41:44,978 | WARNING | core.speech | Speech was not understood.
+2026-07-22 12:56:51,023 | INFO | comtypes.client._code_cache | Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\anaconda3\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-22 12:56:51,024 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\Admin\anaconda3\Lib\site-packages\comtypes\gen'
+2026-07-22 12:56:57,943 | INFO | ui.main_window | Orb state changed to listening
+2026-07-22 12:57:02,942 | INFO | core.assistant | Command processed: current directory | Current Directory:
+C:\Users\Admin
+2026-07-22 12:57:02,945 | INFO | core.speaker | Assistant spoke: You are currently in the Admin folder.
+2026-07-22 13:11:10,752 | INFO | comtypes.client._code_cache | Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\anaconda3\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-22 13:11:10,753 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\Admin\anaconda3\Lib\site-packages\comtypes\gen'
+2026-07-22 13:11:23,840 | INFO | ui.main_window | Orb state changed to listening
+2026-07-22 13:11:36,631 | WARNING | core.speech | Speech was not understood.
+2026-07-22 13:11:36,654 | INFO | ui.main_window | Orb state changed to idle
+2026-07-22 13:11:37,045 | INFO | ui.main_window | Orb state changed to idle
+2026-07-22 13:11:38,335 | INFO | ui.main_window | Orb state changed to listening
+2026-07-22 13:11:43,827 | WARNING | core.speech | Speech was not understood.
+2026-07-22 13:11:43,931 | INFO | ui.main_window | Orb state changed to idle
+2026-07-22 13:11:44,326 | INFO | ui.main_window | Orb state changed to idle
+2026-07-22 13:11:48,766 | INFO | ui.main_window | Orb state changed to listening
+2026-07-22 13:11:56,321 | INFO | core.assistant | Command processed: aatmkatha airport | Unknown command.
+2026-07-22 13:11:56,324 | INFO | core.speaker | Assistant spoke: Unknown command.
+2026-07-22 13:11:56,348 | INFO | ui.main_window | Orb state changed to speaking
+2026-07-22 13:11:56,742 | INFO | ui.main_window | Orb state changed to idle
